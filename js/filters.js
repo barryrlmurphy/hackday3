@@ -1,4 +1,5 @@
         Filters = {};
+        
         Filters.getPixels = function(img) {
           var c,ctx;
           if (img.getContext) {
@@ -159,10 +160,11 @@
           return output;
         };
 
-    var img = document.getElementById('orig');
+    var img = $('.resize-image');
     img.addEventListener('load', function() {
 
       var canvases = document.getElementsByTagName('canvas');
+      
       for (var i=0; i<canvases.length; i++) {
         var c = canvases[i];
         c.parentNode.insertBefore(img.cloneNode(true), c);
@@ -252,3 +254,5 @@
       }
 
     }, false);
+    
+    
