@@ -27,7 +27,7 @@ var resizeableImage = function(image_target) {
     // Add events
     $container.on('mousedown touchstart', '.resize-handle', startResize);
     $container.on('mousedown touchstart', 'img', startMoving);
-    $('.js-crop').on('click', crop);
+    $('.crop').on('click', crop);
   };
 
   startResize = function(e){
