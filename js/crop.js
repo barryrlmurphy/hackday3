@@ -11,20 +11,17 @@ var resizeableImage = function(image_target) {
       max_height = 900,
       resize_canvas = document.createElement('canvas');
 
-  init = function(){
+  init = function() {
+
+    console.log("startResize");
 
     // When resizing, we will always use this copy of the original as the base
     orig_src.src=image_target.src;
 
-    // Wrap the image with the container and add resize handles
-    $(image_target).wrap('<div class="resize-container"></div>')
-    .before('<span class="resize-handle resize-handle-nw"></span>')
-    .before('<span class="resize-handle resize-handle-ne"></span>')
-    .after('<span class="resize-handle resize-handle-se"></span>')
-    .after('<span class="resize-handle resize-handle-sw"></span>');
-
     // Assign the container to a variable
     $container =  $(image_target).parent('.resize-container');
+
+console.log("startResize");
 
     // Add events
     $container.on('mousedown touchstart', '.resize-handle', startResize);
@@ -33,6 +30,7 @@ var resizeableImage = function(image_target) {
   };
 
   startResize = function(e){
+    console.log("startResize");
     e.preventDefault();
     e.stopPropagation();
     saveEventState(e);
@@ -41,6 +39,8 @@ var resizeableImage = function(image_target) {
   };
 
   endResize = function(e){
+      console.log("endResize");
+      
     e.preventDefault();
     $(document).off('mouseup touchend', endResize);
     $(document).off('mousemove touchmove', resizing);

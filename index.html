@@ -10,7 +10,7 @@
     
     <script src="https://load.donedeal.ie/js/libraries/jquery/jquery.min.js"></script>
     <script type="text/javascript" src="https://load.donedeal.ie/js/cookies.js"></script>
-    <script type="text/javascript" src="js/crop.js"></script>
+    
 
     <link rel="stylesheet" href="css/main.css"/>
     <link rel="stylesheet" href="css/component.css"/>
@@ -167,7 +167,14 @@
 				<div class="overlay">
 					<div class="overlay-inner"/>
 				</div>
-				<img class="resize-image" src="img/image.jpg" alt="image for resizing">
+				
+				<div class="resize-container">
+				    <span class="resize-handle resize-handle-nw"></span>
+				    <span class="resize-handle resize-handle-ne"></span>
+				    <img class="resize-image" src="img/image.jpeg" alt="image for resizing">
+				    <span class="resize-handle resize-handle-se"></span>
+				    <span class="resize-handle resize-handle-sw"></span>
+				</div>
 				<button class="btn-crop js-crop">Crop</button>
 			</div>
         </div>
@@ -341,6 +348,8 @@
 		
 
 	</div><!-- END #cads-footer__wrapper -->
+
+    <script type="text/javascript" src="js/crop.js"></script>
 
 	<script>
 		$(function(){
