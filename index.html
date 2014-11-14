@@ -165,26 +165,29 @@
             
             <div class="images-box">
                 <div class="controls">
-                    <div class="num-img">Photo 1 of 4</div>
-                    <div class="crop"></div>
-                    <div class="filters"></div>
-                </div>        
+                    <div class="num-images">Photo 1 of 4</div>
+                    <div class="crop"><img class="resize-image" src="img/cropicon-2x.png" alt="image for resizing"></div>
+                    <div class="filters"><img class="resize-image" src="img/enhanceicon-2x.png" alt="image for resizing"></div>
+                </div>  
+                
+                <div class="component">
+    				<div class="overlay">
+    					<div class="overlay-inner">
+    					</div>
+    				</div>
+    				<div class="resize-container" style="top: -14px; left: 11px;">
+    				    <span class="resize-handle resize-handle-nw"></span>
+    				    <span class="resize-handle resize-handle-ne"></span>
+    				    <img class="resize-image" src="img/image.jpeg" alt="image for resizing">
+    				    <span class="resize-handle resize-handle-sw"></span>
+    				    <span class="resize-handle resize-handle-se"></span></div>
+    
+    				<button class="btn-crop js-crop">Save</button>
+    			</div>
+                
             </div>
     
-            <div class="component">
-				<div class="overlay">
-					<div class="overlay-inner">
-					</div>
-				</div>
-				<div class="resize-container" style="top: -14px; left: 11px;">
-				    <span class="resize-handle resize-handle-nw"></span>
-				    <span class="resize-handle resize-handle-ne"></span>
-				    <img class="resize-image" src="img/image.jpeg" alt="image for resizing">
-				    <span class="resize-handle resize-handle-sw"></span>
-				    <span class="resize-handle resize-handle-se"></span></div>
-
-				<button class="btn-crop js-crop">Save</button>
-			</div>
+            
     
         </div>
     </main>
