@@ -13,9 +13,6 @@ var resizeableImage = function(image_target) {
 
   init = function() {
 
-    console.log("startResize");
-    console.log(image_target);
-
     // When resizing, we will always use this copy of the original as the base
     orig_src.src=image_target.src;
 
@@ -203,29 +200,4 @@ var resizeableImage = function(image_target) {
   init();
 };
 
-// Kick everything off with the target image
 resizeableImage($('.resize-image'));
-
-// Filters = {};
-
-Filters.getPixels = function(img) {
-  var c = this.getCanvas(img.width, img.height);
-  var ctx = c.getContext('2d');
-  ctx.drawImage(img);
-  return ctx.getImageData(0,0,c.width,c.height);
-};
-
-Filters.getCanvas = function(w,h) {
-  var c = document.createElement('canvas');
-  c.width = w;
-  c.height = h;
-  return c;
-};
-
-Filters.filterImage = function(filter, image, var_args) {
-  var args = [this.getPixels(image)];
-  for (var i=2; i<arguments.length; i++) {
-    args.push(arguments[i]);
-  }
-  return filter.apply(null, args);
-};
