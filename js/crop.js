@@ -28,6 +28,7 @@ var resizeableImage = function(image_target) {
     $container.on('mousedown touchstart', '.resize-handle', startResize);
     $container.on('mousedown touchstart', 'img', startMoving);
     $('.crop').on('click', crop);
+    $('.filters').on('click', magic);
   };
 
   startResize = function(e){
@@ -185,8 +186,8 @@ var resizeableImage = function(image_target) {
   }
   
   magic = function() {
-      console.log("Sharpen the image");
-
+      console.log("Keep on keeping on!");
+      // TODO perform magic baby
   };
 
   init();
