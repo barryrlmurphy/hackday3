@@ -27,7 +27,7 @@ var resizeableImage = function(image_target) {
     // Add events
     $container.on('mousedown touchstart', '.resize-handle', startResize);
     $container.on('mousedown touchstart', 'img', startMoving);
-    $('.js-crop').on('click', crop);
+    $('.crop').on('click', crop);
   };
 
   startResize = function(e){
@@ -183,9 +183,38 @@ var resizeableImage = function(image_target) {
     var image = crop_canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");
     window.open(image);
   }
+  
+  magic = function() {
+      console.log("Sharpen the image");
+
+  };
 
   init();
 };
 
 // Kick everything off with the target image
 resizeableImage($('.resize-image'));
+
+// Filters = {};
+
+// Filters.getPixels = function(img) {
+//   var c = this.getCanvas(img.width, img.height);
+//   var ctx = c.getContext('2d');
+//   ctx.drawImage(img);
+//   return ctx.getImageData(0,0,c.width,c.height);
+// };
+
+// Filters.getCanvas = function(w,h) {
+//   var c = document.createElement('canvas');
+//   c.width = w;
+//   c.height = h;
+//   return c;
+// };
+
+// Filters.filterImage = function(filter, image, var_args) {
+//   var args = [this.getPixels(image)];
+//   for (var i=2; i<arguments.length; i++) {
+//     args.push(arguments[i]);
+//   }
+//   return filter.apply(null, args);
+// };
