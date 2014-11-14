@@ -8,9 +8,8 @@
           content="buy,sell,free,ads,classifieds,classified,advertise,ad,second hand,used,sale,ireland,irish" />
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
     
-    <script src="https://load.donedeal.ie/js/libraries/jquery/jquery.min.js"></script>
-    <script type="text/javascript" src="https://load.donedeal.ie/js/cookies.js"></script>
-    
+    <!--<script src="https://load.donedeal.ie/js/libraries/jquery/jquery.min.js"></script>-->
+    <script type="text/javascript" src="ImageResizeCropCanvas/js/jquery-2.1.1.min.js"></script> 
 
     <link rel="stylesheet" href="css/main.css"/>
     <link rel="stylesheet" href="css/component.css"/>
@@ -160,23 +159,25 @@
     </header>
 
     <main>
+        <button class="btn-crop js-crop">Crop</button>
+        
         <div class="main-content-box">
             <div class="content-box-header"><h1>Page Title</h1></div>
     
-        	<div class="component">
+            <div class="component">
 				<div class="overlay">
-					<div class="overlay-inner"/>
+					<div class="overlay-inner">
+					</div>
 				</div>
-				
-				<div class="resize-container">
+				<div class="resize-container" style="top: -14px; left: 11px;">
 				    <span class="resize-handle resize-handle-nw"></span>
 				    <span class="resize-handle resize-handle-ne"></span>
 				    <img class="resize-image" src="img/image.jpeg" alt="image for resizing">
-				    <span class="resize-handle resize-handle-se"></span>
 				    <span class="resize-handle resize-handle-sw"></span>
-				</div>
-				<button class="btn-crop js-crop">Crop</button>
+				    <span class="resize-handle resize-handle-se"></span></div>
+				<button class="btn-crop js-crop">Crop<img class="icon-crop" src="img/crop.svg"></button>
 			</div>
+    
         </div>
     </main>
 
@@ -349,37 +350,35 @@
 
 	</div><!-- END #cads-footer__wrapper -->
 
-    <script type="text/javascript" src="js/crop.js"></script>
-
 	<script>
-		$(function(){
-			$(window).resize(function() { pushFooter(); });
-			pushFooter();
+// 		$(function(){
+// 			$(window).resize(function() { pushFooter(); });
+// 			pushFooter();
 
-			//push footer to bottom of page where content isn't very long (only if it's not already touching the bottom)
-			function pushFooter(){
-				var footerEl = $('#cads-footer');
-				footerEl.outerHeightIncMargin = footerEl.outerHeight(true);
-				if((footerEl.position().top + footerEl.outerHeightIncMargin) < $(window).height()){
-					footerEl.css('margin-top', (footerEl.outerHeightIncMargin - footerEl.outerHeight()) + ($(window).height() - footerEl.outerHeightIncMargin) - footerEl.position().top);
-				}
-			}
+// 			//push footer to bottom of page where content isn't very long (only if it's not already touching the bottom)
+// 			function pushFooter(){
+// 				var footerEl = $('#cads-footer');
+// 				footerEl.outerHeightIncMargin = footerEl.outerHeight(true);
+// 				if((footerEl.position().top + footerEl.outerHeightIncMargin) < $(window).height()){
+// 					footerEl.css('margin-top', (footerEl.outerHeightIncMargin - footerEl.outerHeight()) + ($(window).height() - footerEl.outerHeightIncMargin) - footerEl.position().top);
+// 				}
+// 			}
 
-			$('#cads-footer__feature').addClass('clickable').click( function(e){
-				window.location = $('a', this).attr('href');
-				return xt_click(this,'C','','Classifieds_Footer::Apps', 'N');
-			});
+// 			$('#cads-footer__feature').addClass('clickable').click( function(e){
+// 				window.location = $('a', this).attr('href');
+// 				return xt_click(this,'C','','Classifieds_Footer::Apps', 'N');
+// 			});
 
-			$('#cads-footer__menu a, #cads-footer__copyright a').click( function(e){
-				var linkText = $(this).text().replace(/[\s&]/g, "_");
-				return xt_click(this,'C','','Classifieds_Footer::'+linkText, 'N')
-			});
+// 			$('#cads-footer__menu a, #cads-footer__copyright a').click( function(e){
+// 				var linkText = $(this).text().replace(/[\s&]/g, "_");
+// 				return xt_click(this,'C','','Classifieds_Footer::'+linkText, 'N')
+// 			});
 
-			$('#cads-footer__social a').click( function(e){
-				var linkText = $(this).text().replace(/[\s&]/g, "_");
-				return xt_click(this,'C','','Classifieds_Footer::'+linkText, 'N')
-			});
-		});
+// 			$('#cads-footer__social a').click( function(e){
+// 				var linkText = $(this).text().replace(/[\s&]/g, "_");
+// 				return xt_click(this,'C','','Classifieds_Footer::'+linkText, 'N')
+// 			});
+// 		});
 	</script>
 
 </div><!-- END #cads-footer -->
@@ -387,6 +386,7 @@
 
 
 <!-- INCLUDED JS GOES HERE -->
+<script type="text/javascript" src="js/crop.js"></script>
 
 </body>
 </html>

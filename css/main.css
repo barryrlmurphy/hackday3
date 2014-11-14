@@ -1,19 +1,19 @@
 @font-face  {
      font-family:  'lato';
-     src:  url("/css/fonts/lato/Lato-Regular.ttf") format("truetype");
+     src:  url("http://load.donedeal.ie/css/fonts/lato/Lato-Regular.ttf") format("truetype");
      font-weight:  normal;
      font-style:  normal;
  }
 
 @font-face  {
      font-family:  'lato';
-     src:  url("/css/fonts/lato/Lato-Light.ttf") format("truetype");
+     src:  url("http://load.donedeal.ie/css/fonts/lato/Lato-Light.ttf") format("truetype");
      font-weight:  100;
  }
 
 @font-face  {
      font-family:  'lato';
-     src:  url("/css/fonts/lato/Lato-Bold.ttf") format("truetype");
+     src:  url("http://load.donedeal.ie/css/fonts/lato/Lato-Bold.ttf") format("truetype");
      font-weight:  bold;
  }
 
@@ -325,7 +325,7 @@ body  {
      margin:  0;
      padding:  0;
      text-align:  center;
-     background:  #fffde0 url(/layout/images/web-background.gif.png) repeat-x 0 36px;
+     background:  #fffde0 url(http://load.donedeal.ie/layout/images/web-background.gif.png) repeat-x 0 36px;
      height:  100%;
      position:  relative;
      color:  #303030;
@@ -384,7 +384,7 @@ a:hover  {
      font-weight:  bold;
      font-size:  16px;
      font-size:  1.14286rem;
-     background:  url(/layout/images/icons-misc-sprite.png) no-repeat top left;
+     background:  url(http://load.donedeal.ie/layout/images/icons-misc-sprite.png) no-repeat top left;
      background-position:  0 0;
  }
 
@@ -3615,21 +3615,21 @@ Copyright (c) 2014 Daniel Eden
 
 
 .user-accounts-bar div.option a#user  {
-     background-image:  url(/layout/images/useraccounts/accountbar-sprite.png);
+     background-image:  url(http://load.donedeal.ie/layout/images/useraccounts/accountbar-sprite.png);
      background-repeat:  no-repeat;
      background-position:  -9px -10px;
  }
 
 
 .user-accounts-bar div.option a#myplacedads  {
-     background-image:  url(/layout/images/useraccounts/accountbar-sprite.png);
+     background-image:  url(http://load.donedeal.ie/layout/images/useraccounts/accountbar-sprite.png);
      background-repeat:  no-repeat;
      background-position:  -10px -52px;
  }
 
 
 .user-accounts-bar div.option a#savedads  {
-     background-image:  url(/layout/images/useraccounts/accountbar-sprite.png);
+     background-image:  url(http://load.donedeal.ie/layout/images/useraccounts/accountbar-sprite.png);
      background-repeat:  no-repeat;
      background-position:  -9px -94px;
  }
@@ -3643,7 +3643,7 @@ Copyright (c) 2014 Daniel Eden
 
 
 .user-accounts-bar div.option a#login  {
-     background:  url(/layout/images/useraccounts/accountbar-sprite.png);
+     background:  url(http://load.donedeal.ie/layout/images/useraccounts/accountbar-sprite.png);
      text-decoration:  none;
  }
 
@@ -3654,7 +3654,7 @@ Copyright (c) 2014 Daniel Eden
 
 
 .user-accounts-bar div.option a#logout  {
-     background:  url(/layout/images/useraccounts/accountbar-sprite.png);
+     background:  url(http://load.donedeal.ie/layout/images/useraccounts/accountbar-sprite.png);
      background-repeat:  no-repeat;
      background-position:  -10px -136px;
  }
@@ -3663,7 +3663,7 @@ Copyright (c) 2014 Daniel Eden
 .user-accounts-bar div.container div.option-selected#web a#user,  .user-accounts-bar div.container div.option#search a#user,  .user-accounts-bar div.container div.option-selected#search a#user  {
      color:  #fffbeb;
      font-weight:  normal;
-     background:  url(/layout/images/useraccounts/accountbar-sprite.png) no-repeat -11px 8px;
+     background:  url(http://load.donedeal.ie/layout/images/useraccounts/accountbar-sprite.png) no-repeat -11px 8px;
      position:  relative;
      padding:  22px 0 10px 22px;
      _padding-right:  1px;
@@ -3691,7 +3691,7 @@ Copyright (c) 2014 Daniel Eden
 
 
 .user-accounts-bar-resp a  {
-     background-image:  url(/layout/images/useraccounts/accountbar-sprite.png);
+     background-image:  url(http://load.donedeal.ie/layout/images/useraccounts/accountbar-sprite.png);
      background-repeat:  no-repeat;
      color:  #fffbeb;
      padding:  11px 0 10px 24px;
@@ -3838,15 +3838,15 @@ Copyright (c) 2014 Daniel Eden
 
 #topmenubar td.first  {
      width:  12px;
-     background:  url(/layout/images/yellow/menubar-sprite.png) no-repeat left 1px;
-     _background:  url(/layout/images/yellow/menubar-right.gif.png);
+     background:  url(http://load.donedeal.ie/layout/images/yellow/menubar-sprite.png) no-repeat left 1px;
+     _background:  url(http://load.donedeal.ie/layout/images/yellow/menubar-right.gif.png);
      padding:  0;
  }
 
 
 #topmenubar td  {
-     background:  url(/layout/images/yellow/menubar-sprite.png) no-repeat -8px 1px;
-     _background:  url(/layout/images/yellow/menubar-fill.gif.png);
+     background:  url(http://load.donedeal.ie/layout/images/yellow/menubar-sprite.png) no-repeat -8px 1px;
+     _background:  url(http://load.donedeal.ie/layout/images/yellow/menubar-fill.gif.png);
      vertical-align:  middle;
  }
 
@@ -3872,7 +3872,7 @@ Copyright (c) 2014 Daniel Eden
 
 
 #topmenubar div.menuitem  {
-     background-image:  url(/layout/images/yellow/menubar-divider.gif.png);
+     background-image:  url(http://load.donedeal.ie/layout/images/yellow/menubar-divider.gif.png);
      background-repeat:  no-repeat;
      background-position:  right 1px;
      height:  100%;
@@ -3891,8 +3891,8 @@ Copyright (c) 2014 Daniel Eden
 
 #topmenubar td.last  {
      width:  12px;
-     background:  url(/layout/images/yellow/menubar-sprite.png) no-repeat right 1px;
-     _background:  url(/layout/images/yellow/menubar-left.gif.png);
+     background:  url(http://load.donedeal.ie/layout/images/yellow/menubar-sprite.png) no-repeat right 1px;
+     _background:  url(http://load.donedeal.ie/layout/images/yellow/menubar-left.gif.png);
      padding:  0;
  }
 
@@ -3910,7 +3910,7 @@ Copyright (c) 2014 Daniel Eden
      font-weight:  bold;
      font-size:  16px;
      font-size:  1.14286rem;
-     background:  url(/layout/images/icons-misc-sprite.png) no-repeat top left;
+     background:  url(http://load.donedeal.ie/layout/images/icons-misc-sprite.png) no-repeat top left;
      background-position:  0 0;
  }
 
@@ -4056,7 +4056,7 @@ Copyright (c) 2014 Daniel Eden
      clear:  left;
      display:  inline-block;
      padding-top:  24px;
-     background:  transparent url(/layout/images/pagewrap/footer/donedeal-logo@2x.png) no-repeat 0 0;
+     background:  transparent url(http://load.donedeal.ie/layout/images/pagewrap/footer/donedeal-logo@2x.png) no-repeat 0 0;
      background-size:  116px;
  }
 
@@ -4082,7 +4082,7 @@ Copyright (c) 2014 Daniel Eden
 
 #cads-footer__social a  {
      display:  inline-block;
-     background:  transparent url(/layout/images/pagewrap/footer/social-sprite.png) no-repeat 0 0;
+     background:  transparent url(http://load.donedeal.ie/layout/images/pagewrap/footer/social-sprite.png) no-repeat 0 0;
      height:  38px;
      width:  38px;
  }
@@ -4482,9 +4482,9 @@ form input[type="text"].youtube-link  {
      border-radius:  4px;
      border:  1px solid #a1a1a1;
      background:  #f6f6f6;
-     background:  url("/layout/images/forms/dropdown-arrow.png") no-repeat right 50%,  -moz-linear-gradient(50% 100% 90deg,  #eaeaea 0%,  white 78.57%);
-     background:  url("/layout/images/forms/dropdown-arrow.png") no-repeat right 50%,  -webkit-linear-gradient(90deg,  #eaeaea 0%,  white 78.57%);
-     background:  url("/layout/images/forms/dropdown-arrow.png") no-repeat right 50%,  -webkit-gradient(linear,  50% 100%,  50% 0%,  color-stop(0,  #eaeaea),  color-stop(0.7857,  white));
+     background:  url("http://load.donedeal.ie/layout/images/forms/dropdown-arrow.png") no-repeat right 50%,  -moz-linear-gradient(50% 100% 90deg,  #eaeaea 0%,  white 78.57%);
+     background:  url("http://load.donedeal.ie/layout/images/forms/dropdown-arrow.png") no-repeat right 50%,  -webkit-linear-gradient(90deg,  #eaeaea 0%,  white 78.57%);
+     background:  url("http://load.donedeal.ie/layout/images/forms/dropdown-arrow.png") no-repeat right 50%,  -webkit-gradient(linear,  50% 100%,  50% 0%,  color-stop(0,  #eaeaea),  color-stop(0.7857,  white));
      -moz-box-shadow:  0px 4px 4px rgba(0,  0,  0,  0.1);
      -webkit-box-shadow:  0px 4px 4px rgba(0,  0,  0,  0.1);
      box-shadow:  0px 4px 4px rgba(0,  0,  0,  0.1);
@@ -4547,7 +4547,7 @@ form .vehicle-reg  {
      width:  100%;
      height:  64px;
      max-width:  310px;
-     background:  url(/layout/images/car-reg-plate-ie.gif.png);
+     background:  url(http://load.donedeal.ie/layout/images/car-reg-plate-ie.gif.png);
      background-repeat:  no-repeat;
      background-position:  center center;
      background-size:  100% 100%;
@@ -4603,7 +4603,7 @@ form .radio-btn span,  form .checkbox-btn span  {
      text-align:  center;
      padding:  7px 0 7px 37px;
      display:  block;
-     background-image:  url(/layout/images/forms/form-sprite.png);
+     background-image:  url(http://load.donedeal.ie/layout/images/forms/form-sprite.png);
      background-repeat:  no-repeat;
      background-size:  44px 200px;
  }
@@ -4625,7 +4625,7 @@ form .radio-btn input,  form .checkbox-btn input  {
 
 
 form .radio-btn input:checked + span,  form .checkbox-btn input:checked + span  {
-     background-image:  url(/layout/images/forms/form-sprite.png);
+     background-image:  url(http://load.donedeal.ie/layout/images/forms/form-sprite.png);
      background-repeat:  no-repeat;
      background-size:  44px 200px;
  }
@@ -4755,7 +4755,7 @@ form .narrow-block  {
 
 
 .contact-details-title  {
-     background-image:  url(/layout/images/forms/green-confirm.png);
+     background-image:  url(http://load.donedeal.ie/layout/images/forms/green-confirm.png);
      background-image:  none\9;
      background-repeat:  no-repeat;
      background-position:  0 2px;
@@ -4766,7 +4766,7 @@ form .narrow-block  {
 
 
 .contact-details-title.login-signup  {
-     background-image:  url(/layout/images/forms/login-icon.png);
+     background-image:  url(http://load.donedeal.ie/layout/images/forms/login-icon.png);
      background-image:  none\9;
      background-position:  0 2px;
      min-height:  67px;
@@ -5214,14 +5214,14 @@ terms-info.place-ad-terms  {
 
 
 .show-mms  {
-     background-image:  url(/layout/images/forms/mms-icon-small.png);
+     background-image:  url(http://load.donedeal.ie/layout/images/forms/mms-icon-small.png);
      background:  none\9;
      padding:  10px 10px 10px 28px;
  }
 
 
 .show-youtube  {
-     background-image:  url(/layout/images/youtube_32x32.png);
+     background-image:  url(http://load.donedeal.ie/layout/images/youtube_32x32.png);
      padding:  10px 10px 10px 34px;
  }
 
@@ -5276,7 +5276,7 @@ terms-info.place-ad-terms  {
      padding:  10px 10px 20px;
      text-align:  center;
      background:  #fcf9f0;
-     background-image:  url(/layout/images/upload-gallery/skyline.png);
+     background-image:  url(http://load.donedeal.ie/layout/images/upload-gallery/skyline.png);
      background-repeat:  no-repeat;
      background-position:  bottom left;
      background-size:  100% auto;
@@ -5511,7 +5511,7 @@ terms-info.place-ad-terms  {
      position:  relative;
      display:  inline-block;
      margin:  5px 0 5px 10%;
-     background-image:  url("/layout/images/forms/vid-placeholder.png");
+     background-image:  url("http://load.donedeal.ie/layout/images/forms/vid-placeholder.png");
      background-repeat:  no-repeat;
      background-position:  center 40%;
      background-size:  40% auto;
@@ -5628,7 +5628,7 @@ terms-info.place-ad-terms  {
 
 .modal-bg.processing-bg  {
      background-color:  #000000;
-     background-image:  url("/layout/images/upload-gallery/loader.gif");
+     background-image:  url("http://load.donedeal.ie/layout/images/upload-gallery/loader.gif");
      background-repeat:  no-repeat;
      background-position:  center center;
      background-size:  32px 32px;
@@ -5738,14 +5738,14 @@ terms-info.place-ad-terms  {
 
 .gallery-controls .prev-img  {
      left:  10px;
-     background-image:  url("/layout/images/upload-gallery/left-arrow.svg");
+     background-image:  url("http://load.donedeal.ie/layout/images/upload-gallery/left-arrow.svg");
      background-position:  left;
  }
 
 
 .gallery-controls .next-img  {
      right:  10px;
-     background-image:  url("/layout/images/upload-gallery/right-arrow.svg");
+     background-image:  url("http://load.donedeal.ie/layout/images/upload-gallery/right-arrow.svg");
      background-position:  right;
  }
 
@@ -5767,7 +5767,7 @@ terms-info.place-ad-terms  {
      left:  20px;
      bottom:  20px;
      position:  fixed;
-     background-image:  url("/layout/images/upload-gallery/cover-photo-icon-full.png");
+     background-image:  url("http://load.donedeal.ie/layout/images/upload-gallery/cover-photo-icon-full.png");
  }
 
 
@@ -5778,7 +5778,7 @@ terms-info.place-ad-terms  {
      margin:  auto;
      bottom:  20px;
      position:  fixed;
-     background-image:  url("/layout/images/upload-gallery/rotate-icon-full.png");
+     background-image:  url("http://load.donedeal.ie/layout/images/upload-gallery/rotate-icon-full.png");
  }
 
 
@@ -5786,7 +5786,7 @@ terms-info.place-ad-terms  {
      right:  20px;
      bottom:  20px;
      position:  fixed;
-     background-image:  url("/layout/images/upload-gallery/delete-icon-full.png");
+     background-image:  url("http://load.donedeal.ie/layout/images/upload-gallery/delete-icon-full.png");
  }
 
 
@@ -5988,7 +5988,7 @@ terms-info.place-ad-terms  {
      padding:  0 0 0 22px;
      color:  rgba(0,  0,  0,  0.8);
      line-height:  17px;
-     background:  transparent url(/layout/images/upsell/package-icons-sprite@2x.png) no-repeat 0 -110px;
+     background:  transparent url(http://load.donedeal.ie/layout/images/upsell/package-icons-sprite@2x.png) no-repeat 0 -110px;
      background-size:  50px;
      background:  none\9;
      list-style:  inside disc\9;
@@ -6023,7 +6023,7 @@ terms-info.place-ad-terms  {
 
 
 .upsell-package-footnotes .info-icon  {
-     background:  transparent url(/layout/images/upsell/package-icons-sprite@2x.png) no-repeat 0 -194px;
+     background:  transparent url(http://load.donedeal.ie/layout/images/upsell/package-icons-sprite@2x.png) no-repeat 0 -194px;
      background-size:  44px;
      display:  inline-block;
      height:  22px;
@@ -6035,9 +6035,9 @@ terms-info.place-ad-terms  {
 
 #upsell-package_Free  {
      background-color:  #f3ffd8;
-     background-image:  url(/layout/images/upsell/backgrounds/package-type-1.png);
-     background-image:  url(/layout/images/upsell/backgrounds/package-type-1.png),  -webkit-gradient(linear,  50% 100%,  50% 0,  color-stop(0,  #d1edaf),  color-stop(0.0714,  #f3ffd9));
-     background-image:  url(/layout/images/upsell/backgrounds/package-type-1.png),  linear-gradient(0,  #d1edaf 0%,  #f3ffd9 7.14%);
+     background-image:  url(http://load.donedeal.ie/layout/images/upsell/backgrounds/package-type-1.png);
+     background-image:  url(http://load.donedeal.ie/layout/images/upsell/backgrounds/package-type-1.png),  -webkit-gradient(linear,  50% 100%,  50% 0,  color-stop(0,  #d1edaf),  color-stop(0.0714,  #f3ffd9));
+     background-image:  url(http://load.donedeal.ie/layout/images/upsell/backgrounds/package-type-1.png),  linear-gradient(0,  #d1edaf 0%,  #f3ffd9 7.14%);
  }
 
 
@@ -6048,9 +6048,9 @@ terms-info.place-ad-terms  {
 
 #upsell-package_Regular  {
      background-color:  #fffce6;
-     background-image:  url(/layout/images/upsell/backgrounds/package-type-2.png);
-     background-image:  url(/layout/images/upsell/backgrounds/package-type-2.png),  -webkit-gradient(linear,  50% 100%,  50% 0,  color-stop(0,  #f7eea8),  color-stop(0.0765,  #fffce6));
-     background-image:  url(/layout/images/upsell/backgrounds/package-type-2.png),  linear-gradient(0,  #f7eea8 0%,  #fffce6 7.65%);
+     background-image:  url(http://load.donedeal.ie/layout/images/upsell/backgrounds/package-type-2.png);
+     background-image:  url(http://load.donedeal.ie/layout/images/upsell/backgrounds/package-type-2.png),  -webkit-gradient(linear,  50% 100%,  50% 0,  color-stop(0,  #f7eea8),  color-stop(0.0765,  #fffce6));
+     background-image:  url(http://load.donedeal.ie/layout/images/upsell/backgrounds/package-type-2.png),  linear-gradient(0,  #f7eea8 0%,  #fffce6 7.65%);
  }
 
 
@@ -6074,7 +6074,7 @@ input.upsell-package-input:checked + label .upsell-package-overlay  {
      left:  0;
      height:  45px;
      width:  45px;
-     background:  transparent url(/layout/images/upsell/package-icons-sprite@2x.png) no-repeat 0 0;
+     background:  transparent url(http://load.donedeal.ie/layout/images/upsell/package-icons-sprite@2x.png) no-repeat 0 0;
      background-size:  45px;
  }
 
@@ -6133,16 +6133,16 @@ input.upsell-package-input:checked + label h4,  .upsell-package:hover h4  {
  }
 
   #upsell-package_Free  {
-     background-image:  url(/layout/images/upsell/backgrounds/package-type-1-crop.png);
-     background-image:  url(/layout/images/upsell/backgrounds/package-type-1-crop.png),  -webkit-gradient(linear,  50% 100%,  50% 0,  color-stop(0,  #d1edaf),  color-stop(0.0714,  #f3ffd9));
-     background-image:  url(/layout/images/upsell/backgrounds/package-type-1-crop.png),  linear-gradient(0,  #d1edaf 0%,  #f3ffd9 7.14%);
+     background-image:  url(http://load.donedeal.ie/layout/images/upsell/backgrounds/package-type-1-crop.png);
+     background-image:  url(http://load.donedeal.ie/layout/images/upsell/backgrounds/package-type-1-crop.png),  -webkit-gradient(linear,  50% 100%,  50% 0,  color-stop(0,  #d1edaf),  color-stop(0.0714,  #f3ffd9));
+     background-image:  url(http://load.donedeal.ie/layout/images/upsell/backgrounds/package-type-1-crop.png),  linear-gradient(0,  #d1edaf 0%,  #f3ffd9 7.14%);
  }
 
   #upsell-package_Regular  {
      float:  right;
-     background-image:  url(/layout/images/upsell/backgrounds/package-type-2-crop.png);
-     background-image:  url(/layout/images/upsell/backgrounds/package-type-2-crop.png),  -webkit-gradient(linear,  50% 100%,  50% 0,  color-stop(0,  #f7eea8),  color-stop(0.0765,  #fffce6));
-     background-image:  url(/layout/images/upsell/backgrounds/package-type-2-crop.png),  linear-gradient(0,  #f7eea8 0%,  #fffce6 7.65%);
+     background-image:  url(http://load.donedeal.ie/layout/images/upsell/backgrounds/package-type-2-crop.png);
+     background-image:  url(http://load.donedeal.ie/layout/images/upsell/backgrounds/package-type-2-crop.png),  -webkit-gradient(linear,  50% 100%,  50% 0,  color-stop(0,  #f7eea8),  color-stop(0.0765,  #fffce6));
+     background-image:  url(http://load.donedeal.ie/layout/images/upsell/backgrounds/package-type-2-crop.png),  linear-gradient(0,  #f7eea8 0%,  #fffce6 7.65%);
  }
 
   input.upsell-package-input:checked + label .upsell-package-overlay  {
@@ -6252,7 +6252,7 @@ input.upsell-package-input:checked + label h4,  .upsell-package:hover h4  {
 
 .cad-addon-input + input + .fancy-input  {
      padding:  3px 0 2px 30px;
-     background-image:  url(/layout/images/forms/form-sprite.png);
+     background-image:  url(http://load.donedeal.ie/layout/images/forms/form-sprite.png);
      background-repeat:  no-repeat;
      background-position:  0 -1px;
      background-size:  40px;
@@ -6299,7 +6299,7 @@ input.upsell-package-input:checked + label h4,  .upsell-package:hover h4  {
 
 
 #feedback-form .contact-details-title  {
-     background-image:  url(/layout/images/forms/feedback-icon.png);
+     background-image:  url(http://load.donedeal.ie/layout/images/forms/feedback-icon.png);
      background-position:  0 0;
      min-height:  60px;
      background:  none\9;
@@ -6484,7 +6484,7 @@ input.upsell-package-input:checked + label h4,  .upsell-package:hover h4  {
      display:  inline-block;
      font-size:  20px;
      text-decoration:  underline;
-     background-image:  url(/layout/images/forms/form-sprite.png);
+     background-image:  url(http://load.donedeal.ie/layout/images/forms/form-sprite.png);
      background-repeat:  no-repeat;
      background-position:  0 -229px;
      background-size:  52px 260px;
@@ -6655,7 +6655,7 @@ div.breadcrumbs a,  div.breadcrumbs a:active,  div.breadcrumbs a:visited  {
 
 
 .cad-contact-ctnr li.contact-method  {
-     background:  transparent url(/layout/images/contact-sprite.png) no-repeat top left;
+     background:  transparent url(http://load.donedeal.ie/layout/images/contact-sprite.png) no-repeat top left;
      padding:  18px 10px 10px 75px;
      font-size:  110%;
  }
@@ -6672,7 +6672,7 @@ div.breadcrumbs a,  div.breadcrumbs a:active,  div.breadcrumbs a:visited  {
 
 
 .cad-contact-ctnr li.contact-method  {
-     background:  transparent url(/layout/images/contact-sprite.png) no-repeat top left;
+     background:  transparent url(http://load.donedeal.ie/layout/images/contact-sprite.png) no-repeat top left;
      padding:  18px 10px 10px 75px;
      font-size:  110%;
  }
@@ -6766,7 +6766,7 @@ div.breadcrumbs a,  div.breadcrumbs a:active,  div.breadcrumbs a:visited  {
      display:  block;
      width:  100%;
      height:  100%;
-     background:  no-repeat url(/layout/images/loading.png) 0 0;
+     background:  no-repeat url(http://load.donedeal.ie/layout/images/loading.png) 0 0;
      background-size:  32px;
      opacity:  0.2;
      -webkit-animation:  spinner-rotate 1.4s infinite linear;

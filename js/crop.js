@@ -14,6 +14,7 @@ var resizeableImage = function(image_target) {
   init = function() {
 
     console.log("startResize");
+    console.log(image_target);
 
     // When resizing, we will always use this copy of the original as the base
     orig_src.src=image_target.src;
@@ -21,7 +22,7 @@ var resizeableImage = function(image_target) {
     // Assign the container to a variable
     $container =  $(image_target).parent('.resize-container');
 
-console.log("startResize");
+    console.log($container);
 
     // Add events
     $container.on('mousedown touchstart', '.resize-handle', startResize);
@@ -116,6 +117,7 @@ console.log("startResize");
   }
 
   resizeImage = function(width, height){
+    console.log("startMoving");
     resize_canvas.width = width;
     resize_canvas.height = height;
     resize_canvas.getContext('2d').drawImage(orig_src, 0, 0, width, height);   
@@ -123,6 +125,7 @@ console.log("startResize");
   };
 
   startMoving = function(e){
+    console.log("startMoving");
     e.preventDefault();
     e.stopPropagation();
     saveEventState(e);

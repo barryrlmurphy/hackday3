@@ -1,3 +1,22 @@
+.content {
+	max-width: 1290px;
+	padding: 0 1em;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.component {
+	position: relative;
+	background: url(../img/gridme.png) repeat center center;
+	padding: 4em;
+	height: 600px;
+	border: 3px solid #49708A;
+	max-width: 901px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+
 .resize-container {
     position: relative;
     display: inline-block;
@@ -52,14 +71,10 @@
 
 .overlay {
 	position: absolute;
-	left: 50%;
-	top: 50%;
-	margin-left: -100px;
-	margin-top: -100px;
 	z-index: 999;
-	width: 200px;
-	height: 200px;
-    border: solid 2px rgba(222,60,80,.9);
+	width: 500px;
+	height: 500px;
+	border: solid 2px rgba(222,60,80,.9);
 	box-sizing: content-box;
 	pointer-events: none;
 }
