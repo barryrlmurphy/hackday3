@@ -188,6 +188,16 @@ var resizeableImage = function(image_target) {
   magic = function() {
       console.log("Keep on keeping on!");
       // TODO perform magic baby
+      
+      Filters = {};
+      Filters.filterImage = function(filter, image, var_args) {
+        var args = [this.getPixels(image)];
+        for (var i=2; i<arguments.length; i++) {
+          args.push(arguments[i]);
+        }
+        return filter.apply(null, args);
+      };
+      
   };
 
   init();
@@ -198,24 +208,24 @@ resizeableImage($('.resize-image'));
 
 // Filters = {};
 
-// Filters.getPixels = function(img) {
-//   var c = this.getCanvas(img.width, img.height);
-//   var ctx = c.getContext('2d');
-//   ctx.drawImage(img);
-//   return ctx.getImageData(0,0,c.width,c.height);
-// };
+Filters.getPixels = function(img) {
+  var c = this.getCanvas(img.width, img.height);
+  var ctx = c.getContext('2d');
+  ctx.drawImage(img);
+  return ctx.getImageData(0,0,c.width,c.height);
+};
 
-// Filters.getCanvas = function(w,h) {
-//   var c = document.createElement('canvas');
-//   c.width = w;
-//   c.height = h;
-//   return c;
-// };
+Filters.getCanvas = function(w,h) {
+  var c = document.createElement('canvas');
+  c.width = w;
+  c.height = h;
+  return c;
+};
 
-// Filters.filterImage = function(filter, image, var_args) {
-//   var args = [this.getPixels(image)];
-//   for (var i=2; i<arguments.length; i++) {
-//     args.push(arguments[i]);
-//   }
-//   return filter.apply(null, args);
-// };
+Filters.filterImage = function(filter, image, var_args) {
+  var args = [this.getPixels(image)];
+  for (var i=2; i<arguments.length; i++) {
+    args.push(arguments[i]);
+  }
+  return filter.apply(null, args);
+};
